@@ -1,0 +1,15 @@
+name: ChatMute
+version: 1.0
+main: com.yourname.chatmute.ChatMutePlugin
+api-version: '1.21.4'
+commands:
+  mutechat:
+    description: Toggle chat mute for your current world
+    usage: /mutechat
+    permission: mutechat.toggle
+    permission-message: You don't have permission to do that.
+permissions:
+  mutechat.toggle:
+    default: op
+  mutechat.bypass:
+    default: op
